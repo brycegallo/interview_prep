@@ -10,14 +10,15 @@ class Solution:
         candidates.sort()
 
         result = []
-        def backtrack(current, i, target):
+        
+        def backtrack(current, pos, target):
             if target == 0:
                 result.append(current.copy())
             if target < 0:
                 return None
 
             prev = -1
-            for i in range(len(candidates)):
+            for i in range(pos, len(candidates)):
                 if candidates[i] == prev:
                     continue
                 current.append(candidates[i])
@@ -26,6 +27,7 @@ class Solution:
                 prev = candidates[i]
         backtrack([], 0, target)
         return result
+
 
 # alternative solution
 class Solution2:
