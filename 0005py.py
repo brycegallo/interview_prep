@@ -1,5 +1,7 @@
 # leetcode 0005 - Longest Palindromic Substring
 # Given a string s, return the longest palindromic substringin s.
+
+# Time O(n^3) i think, because slicing a string takes O(n) time
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         result = [""]
