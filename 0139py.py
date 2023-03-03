@@ -1,8 +1,8 @@
 # leetcode 0139 - Word Break
 # Given a string s and a dictionary of strings wordDict, return true if s
 # can be segmented into a space-separated sequence of one or more dictionary words.
-#
 # Note that the same word in the dictionary may be reused multiple times in the segmentation.
+# Time: O(m*n^2)  Memory: O(m) where m is the length of s
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
         dp = [False] * (len(s))
