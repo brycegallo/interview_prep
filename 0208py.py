@@ -14,6 +14,7 @@ class TrieNode:
         self.children = {}
         self.endOfWord = False
 
+
 class Trie:
     def __init__(self):
         self.root = TrieNode()
