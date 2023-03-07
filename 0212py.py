@@ -4,6 +4,7 @@
 # Each word must be constructed from letters of sequentially adjacent cells,
 # where adjacent cells are horizontally or vertically neighboring.
 # The same letter cell may not be used more than once in a word.
+# Time()
 class TrieNode:
     def __init__(self):
         self.children = {}
