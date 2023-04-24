@@ -1,4 +1,5 @@
 # leetcode 0875 - Koko Eating Bananas
+
 # Koko loves to eat bananas. There are n piles of bananas, the ith pile has piles[i] bananas.
 # The guards have gone and will come back in h hours.
 # Koko can decide her bananas-per-hour eating speed of k. Each hour, she chooses some pile of bananas
