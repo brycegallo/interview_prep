@@ -1,4 +1,5 @@
 # leetcode 0853 - Car Fleet
+# Medium
 
 # There are n cars going to the same destination along a one-lane road. The destination is target miles away.
 # You are given two integer array position and speed, both of length n,
