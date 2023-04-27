@@ -1,4 +1,4 @@
-# 543. Diameter of Binary Tree
+# leetcode 0543 - Diameter of Binary Tree
 # Easy
 #
 # Given the root of a binary tree, return the length of the diameter of the tree.
