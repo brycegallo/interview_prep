@@ -13,7 +13,7 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class Solution:
+class mySolution:
     def goodNodes(self, root: TreeNode) -> int:
         result = [0]
 
@@ -28,3 +28,17 @@ class Solution:
 
         dfs(root, root.val)
         return result[0]
+
+
+class neetSolution:
+    def goodNodes(self, root: TreeNode) -> int:
+        def dfs(root, maxval):
+            if not root:
+                return 0
+            result = 1 if root.val >= maxval else 0
+            maxval = max(maxval, root.val)
+            result += dfs(root.left, maxval)
+            result += dfs(root.right, maxval)
+            return result
+
+        return dfs(root, root.val)
