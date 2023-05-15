@@ -8,7 +8,19 @@
 # All occurrences of a character must be replaced with another character while preserving the order of characters.
 # No two characters may map to the same character, but a character may map to itself.
 # Time: O(n) Memory: O(n)
-class Solution:
+class ZipSolution:
+    def isIsomorphic(self, s: str, t: str) -> bool:
+        mapST, mapTS = {}, {}
+
+        for c_s, c_t in zip(s, t):
+            if (c_s in mapST and mapST[c_s] != c_t) or (c_t in mapTS and mapTS[c_t] != c_s):
+                return False
+            mapST[c_s] = c_t
+            mapTS[c_t] = c_s
+        return True
+
+
+class RangeSolution:
     def isIsomorphic(self, s: str, t: str) -> bool:
         mapST, mapTS = {}, {}
 
