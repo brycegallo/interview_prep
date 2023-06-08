@@ -3,7 +3,7 @@
 #
 # Given a collection of numbers, nums, that might contain duplicates,
 # return all possible unique permutations in any order.
-# Time: O() Memory: O()
+# Time: O(n*2^n), maybe O(n!) Memory: O(n*2^n)?
 class Solution:
     def permuteUnique(self, nums: List[int]) -> List[List[int]]:
         result = []
