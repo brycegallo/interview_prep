@@ -1,5 +1,5 @@
 # leetcode 0169 - Majority Element
-# Easy
+# Easy - Arrays & Hashing
 #
 # Given an array nums of size n, return the majority element.
 #

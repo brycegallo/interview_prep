@@ -1,5 +1,5 @@
 # leetcode 0283 - Move Zeroes
-# Easy
+# Easy - Two Pointers
 #
 # Given an integer array nums, move all 0's to the end of it
 # while maintaining the relative order of the non-zero elements.
