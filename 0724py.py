@@ -1,4 +1,4 @@
-# leetcde 0724 - Find Pivot Index
+# leetcode 0724 - Find Pivot Index
 # Easy - Arrays & Hashing
 #
 # Given an array of integers nums, calculate the pivot index of this array.
