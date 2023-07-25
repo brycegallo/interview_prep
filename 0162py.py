@@ -20,6 +20,7 @@ class Solution:
             # check if left neighboring element is greater
             if middle > 0 and nums[middle - 1] > nums[middle]:
                 high = middle - 1
+            # check if right neighboring element is greater
             elif middle < len(nums) - 1 and nums[middle + 1] > nums[middle]:
                 low = middle + 1
             else:
