@@ -1,5 +1,5 @@
 # leetcode 1011 - Capacity To Ship Packages Within D Days
-# Medium
+# Medium - Binary Search
 #
 # A conveyor belt has packages that must be shipped from one port to another within days days.
 #
