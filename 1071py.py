@@ -5,7 +5,7 @@
 # (i.e., t is concatenated with itself one or more times).
 #
 # Given two strings str1 and str2, return the largest string x such that x divides both str1 and str2.
-# Time: O( min(m,n)*(m+n) ) Memory: O()
+# Time: O( min(m,n)*(m+n) ) Memory: O(1)
 class Solution:
     def gcdOfStrings(self, str1: str, str2: str) -> str:
         len1, len2 = len(str1), len(str2)
