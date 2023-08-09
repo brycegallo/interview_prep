@@ -1,4 +1,5 @@
 # leetcode 0125 - Valid Palindrome
+# Easy - Two Pointers
 # A phrase is a palindrome if, after converting all uppercase letters into lowercase letters
 # and removing all non-alphanumeric characters, it reads the same forward and backward.
 # Alphanumeric characters include letters and numbers.
@@ -8,6 +9,7 @@
 # Constraints
 # 1 <= s.length <= 2 * 10^5
 # s consists only of printable ASCII characters.
+# Time: O(n) Memory: O(1)
 
 # first attempt, with pointers
 class Solution:
