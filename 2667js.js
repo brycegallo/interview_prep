@@ -1,5 +1,5 @@
  // leetcode 2667 - Create Hello World Function
- // Easy - Javascript 30-Day Challenge
+ // Easy - Javascript 30-Day Challenge: Day 1
  // Write a function createHelloWorld. It should return a new function that always returns "Hello World".
  // Time: O(1) Memory: O(1)
  /**
