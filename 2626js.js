@@ -1,5 +1,5 @@
 // leetcode 2626 - Array Reduce Transformation
-// Easy - Javascript 30-Day Challenge: Day 5
+// Easy - Javascript 30-Day Challenge: Day 6
 //
 // Given an integer array nums, a reducer function fn, and an initial value init, return a reduced array.
 // A reduced array is created by applying the following operation:
