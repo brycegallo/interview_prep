@@ -14,7 +14,7 @@ class SortingSolution:
 
 # Hash Set solution
 # Time: O(n) Memory: O(n)
-class SortingSolution:
+class HashSetSolution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         hashset = set()
 
