@@ -1,4 +1,6 @@
-// Leetcode 0247: valid anagram
+// Leetcode 0242: Valid Anagram
+// Given two strings s and t, return true if t is an anagram of s, and false otherwise
+// s is guaranteed to be at least 1 character, t is not
 // Sort with qsort()
 // Time Complexity: O(n logn) Space Complexity: O(1)
 int compare (const void* a, const void* b) {
