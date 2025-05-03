@@ -15,6 +15,14 @@ struct ListNode* reverseList(struct ListNode* head) {
     // previous and placeholder must be NULL to avoid retaining their values from prior leetcode testcases
     struct ListNode* previous = NULL;
     struct ListNode* placeholder = NULL;
+
+    while (current != NULL) {
+	placeholder = current->next;
+	current->next = previous;
+	previous = current;
+	current = placeholder;
+    }
+    return previous;
 }
 
 // Sub-optimal Solution: Recursive solution
