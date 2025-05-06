@@ -15,6 +15,7 @@ char * mergeAlternately(char * word1, char * word2){
         result[result_index++] = word1[words_index];
         result[result_index++] = word2[words_index++];
     }
+    // avoiding using strcpy() and strncpy() in these while loops for safety reasons
     while (words_index < strlen(word1)) {
         result[result_index++] = word1[words_index++];
     }
