@@ -1,4 +1,4 @@
-#Implementation of a Double-ended Queue in Python
+# Implementation of a Double-ended Queue in Python
 
 # Doubly-Linked List Node
 class Node:
