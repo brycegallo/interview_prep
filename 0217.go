@@ -6,13 +6,15 @@
 // Hash Set solution
 // Time: O(n) Memory: O(n)
 func containsDuplicate(nums []int) bool {
-    nums_map := map[int]int{}
-    for _, n := range nums {
-        if _, ok := nums_map[n]; !ok {
-            nums_map[n] = 1
-        } else {
-            return true
-        }
+    // canonical way to create a new map:
+    seen := make(map[int]bool)
+    // composite literal way would be:
+    // nums_map := map[int]bool{}
+    for _, num := range nums {
+	if seen[num] {
+	    return true
+	}
+	seen[num] = true
     }
     return false
 }
